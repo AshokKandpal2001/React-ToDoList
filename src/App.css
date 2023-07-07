@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto:wght@300&display=swap');
+
+nav{
+  background-color: darkcyan;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header{
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.header a{
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
+
+.container{
+  background-color:beige;
+  min-height: 100vh;
+  width: 70%;
+  margin: auto;
+  padding: 4vmax;
+}
+
+.container form{
+  display: flex;
+  flex-direction: column;
+}
+
+input,textarea,button{
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  margin: 10px 0px;
+}
+
+button{
+  background-color: rgba(0, 0, 0, 0.655);
+  color: white;
+  cursor: pointer;
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.task div{
+  width: 100%;
+}
+
+.task button{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  background-color: crimson;
+}
+
+.task button:hover{
+  background-color: red;
+}
+
+.contact{
+  background-color: crimson;
+  width: 100%;
+  height: 100vh;
+}
+
+.about{
+  background-color: blue;
+  width: 100%;
+  height: 100vh;
+}
+
+footer{
+ background-color: rgb(30, 30, 30);
+ height: 100px;
+ color: white;
+}
